@@ -24,7 +24,8 @@ public class QuickSort
                                 i--;
 
                                 // swap arr[i] and arr[j]
-                                int temp = arr[i];
+                               int temp = arr[i];
+                                arr[i] = arr[j];
                                 arr[j] = temp;
                             }
                     }
