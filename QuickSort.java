@@ -203,7 +203,7 @@ public class QuickSort
                         // Recursively sort elements before
                         // partition and after partition
                         sort(arr, low, pi - 1, 0);
-                        sort(arr, pi + 1, low, 0);
+                        sort(arr, pi + 1, high, 0);
                     }
                 // Quicksort type 2: stop at partitions of 100, then do
                 // insertion sort
